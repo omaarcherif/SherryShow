@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    a{
+            text-decoration: none;
+            color: white;
+        }
+    body {
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      color: black;
+      background-color: whitesmoke;
+    }
+    
+        .header nav {
+          width: 84%;
+          height: 120px;
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          nav {
+        width: 84%;
+        height: 120px;
+        margin: auto;
+        display: flex
+    ;
+        align-items: center;
+        justify-content: space-between;
+    }
+        }
+    
+        .header nav ul {
+          display: flex;
+          gap: 20px;
+        }
+    
+        .header nav ul li {
+          list-style: none;
+        }
+    
+        .header nav ul li a {
+          text-decoration: none;
+          color: #606163;
+    
+        }
+    
+        .header nav ul li a:hover {
+          color: #ff4321;
+        }
+    
+        .product-details {
+          padding: 80px 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 30px;
+          background-color: #fff;
+        }
+    
+        .details-container {
+          display: flex;
+          gap: 30px;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+    
+        .product-image img {
+          width: 100%;
+          max-width: 400px;
+          border-radius: 10px;
+        }
+    
+        .product-info {
+          max-width: 500px;
+        }
+    
+        .product-info h1 {
+          font-size: 2rem;
+          font-weight: 600;
+          margin-bottom: 15px;
+          color: #333;
+        }
+    
+        .product-info .price {
+          font-size: 1.5rem;
+          color: #ff4321;
+          margin-bottom: 15px;
+        }
+    
+    
+        .product-info .description {
+        /* font-size: 1rem; */
+        /* line-height: 1.6; */
+        color: #555;
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+    
+        .product-info .buy-now {
+          background-color: #ff4321;
+          color: white;
+          padding: 15px 30px;
+          border: none;
+          border-radius: 30px;
+          font-weight: 600;
+          cursor: pointer;
+          text-transform: uppercase;
+          transition: background-color 0.3s ease;
+        }
+    
+        .product-info .buy-now:hover {
+          background-color: #e03e1a;
+        }
+    
+        footer {
+          background-color: #222;
+          color: #ccc;
+          text-align: center;
+          padding: 10px;
+          font-size: 0.9em;
+          
+        }
+    
+        footer a {
+          color: #ff4321;
+          text-decoration: none;
+        }
+      </style>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Product Details - Sherry Show</title>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <img src="log.png" class="logob" alt="Sherry Show Logo">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="men.html">MEN</a></li>
+        <li><a href="women.html">WOMEN</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="cart.html" class="icon-link"><i class="fas fa-shopping-cart"></i></a></li>
+        <li><a href="registeration.html" class="icon-link"><i class="fas fa-user-plus"></i></a></li>
+        <li><a href="login.html" class="icon-link"><i class="fas fa-user"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="product-details">
+    <div class="details-container">
+      <div class="product-image">
+        <img src="n1.png" alt="Nike C1TY">
+      </div>
+      <div class="product-info">
+        <h1>Nike C1TY</h1>
+        <p class="price">2500 LE</p>
+        <p class="description">
+          This premium leather wallet is crafted for durability and style. Featuring multiple compartments, it is perfect for carrying cash, cards, and other essentials. Its sleek design ensures a sophisticated look for any occasion.
+        </p>
+        <button class="buy-now"><a href="cart.html">Buy Now</a></button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sherry Show. All Rights Reserved. | Design by <a href="about.html">Sherry Show Team</a></p>
+  </footer>
+
+  
+</body>
+</html>
